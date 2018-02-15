@@ -48,7 +48,7 @@ public class FocusPlugin implements Plugin
     private final JitsiJicofoWrapper jitsiJicofoWrapper = new JitsiJicofoWrapper();
 
     @Override
-    public void initializePlugin( PluginManager pluginManager, File file )
+    public void initializePlugin( final PluginManager pluginManager, File file )
     {
         ensureFocusUser();
 
