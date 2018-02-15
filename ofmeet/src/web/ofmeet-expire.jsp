@@ -23,7 +23,6 @@
 %>
 <%@ page import="org.jivesoftware.openfire.plugin.ofmeet.OfMeetPlugin" %>
 <%@ page import="org.jivesoftware.openfire.XMPPServer" %>
-<%@ page import="org.jxmpp.jid.impl.JidCreate" %>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
@@ -43,4 +42,5 @@
 	}
 	// Done, so redirect
 	response.sendRedirect("ofmeet-summary.jsp?deletesuccess=true");
+	return;
 %>

@@ -222,6 +222,7 @@ public class OfMeetPlugin implements Plugin, SessionEventListener, ClusterEventL
         }
 
         ClusterManager.removeListener(this);
+        EmailListener.getInstance().stop();
     }
 
     protected void loadPublicWebApp() throws Exception

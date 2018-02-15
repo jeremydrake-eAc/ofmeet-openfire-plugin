@@ -27,7 +27,6 @@
 <%@ page import="org.jitsi.videobridge.*" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.Arrays" %>
-<%@ page import="org.jxmpp.jid.impl.JidCreate" %>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
