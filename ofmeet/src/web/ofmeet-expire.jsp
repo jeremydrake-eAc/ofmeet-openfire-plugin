@@ -35,7 +35,7 @@
 
 	OfMeetPlugin container = (OfMeetPlugin) XMPPServer.getInstance().getPluginManager().getPlugin("ofmeet");
 	Videobridge videobridge = container.getVideobridge();
-	Conference conference = videobridge.getConference( confid, JidCreate.entityFullFrom( focus ) );
+	Conference conference = videobridge.getConference(confid, focus);
 	
 	if (conference != null) {
 		conference.expire();
