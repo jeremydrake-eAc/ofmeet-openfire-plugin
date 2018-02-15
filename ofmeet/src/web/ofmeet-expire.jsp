@@ -42,5 +42,4 @@
 	}
 	// Done, so redirect
 	response.sendRedirect("ofmeet-summary.jsp?deletesuccess=true");
-	return;
 %>
