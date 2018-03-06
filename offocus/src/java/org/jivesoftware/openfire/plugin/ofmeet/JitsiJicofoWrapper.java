@@ -78,7 +78,7 @@ public class JitsiJicofoWrapper
 
         // Jicofo should trust any certificates (as it is communicating with the local Openfire instance only, which we can safely define as 'trusted').
         System.setProperty( "net.java.sip.communicator.service.gui.ALWAYS_TRUST_MODE_ENABLED", Boolean.toString( true ) );
-        System.setProperty( FocusManager.ALWAYS_TRUST_PNAME, Boolean.toString( true ) );
+        System.setProperty( "org.jitsi.jicofo.ALWAYS_TRUST_MODE_ENABLED", Boolean.toString( true ) );
 
         // Disable health check. Our JVB is not an external component, so there's no need to check for its connectivity.
         // Also, the health check appears to cumulatively use and not release resources!
